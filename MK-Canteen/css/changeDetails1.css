@@ -1,0 +1,55 @@
+.input-style {
+  width: 40%;
+  padding: 12px 20px;
+  margin-left:30%;
+  box-sizing: border-box;
+  border: none;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+}
+
+input[type=text]:focus, textarea:focus,button:focus{
+  outline: 4px solid orange;
+  background-color:rgb(224, 255, 219);     /* oranges! yey */
+}
+
+.button {
+ background-color: #2f3030;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 25px;
+  width: 15%;
+   border-radius: 25px;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+hr
+{
+	width: 40%
+}
+h3
+{
+	text-align: center;
+	color: white;
+}
+.alert
+{
+	color:yellow;
+}
+
+.profile-style
+{
+	border-style: dotted;
+	
+}
