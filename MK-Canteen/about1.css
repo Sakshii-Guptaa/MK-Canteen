@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lato:wght@300;400;700&family=Lobster&family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.section{
+    width: 100%;
+    min-height:120vh;
+  background-image: linear-gradient(to bottom right,#3dfff2,#ffcb3d);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section-2{
+    float: right;
+    width: 20%;
+}
+.image-section-2 img{
+    width: 100%;
+    height: auto;
+    
+    border-radius: 50%;  
+    position:relative; 
+    left:80px; 
+}
+.image-section-2 img:hover{
+          transform: scale(1.05);
+          box-shadow: 0 0 40px -10px rgba(0,0,0,0.24);
+ } 
+.image-section img{
+    width: 100%;
+    height: auto;
+    
+    border-radius: 50%;  
+    position:relative; 
+    left:60px; 
+    top:100px;
+}
+.image-section img:hover{
+          transform: scale(1.05);
+          box-shadow: 0 0 40px -10px rgba(0,0,0,0.24);
+ } 
+       
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .title h1{
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 1.5px;
+        color: #fff;
+        text-align:center;
+        /* font color add */
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5995fd;
+    font-size: 21px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.content-section .content .text{
+    font-size: 24px;
+    font-family: lobsters;
+    color: #fff;/*font color add */
+}
+.content-section .content .moreText{
+    display: none;
+    font-family: lobsters;
+}
+.content-section .content .read-more-btn{
+    margin-top: 15px;
+}
+.content-section .content .read-more-btn{
+    background-color: #5995fd;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.content-section .content .text.show-more .moreText{
+    display: inline;
+}
+.content-section .content .text.show-more .dots{
+    display: none;
+}
+.content-section .content .read-more-btn:hover{
+    background-color: #a52a2a;
+    color: #fff;
+} 
+@media screen and (max-width: 768px){
+   .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+} 
+.content-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.image-section{
+    float: none;
+    width: 100%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.content-section .title{
+    text-align: center;
+    font-size: 19px;
+}
+.content-section .content .button{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.content-section .content .button a{
+    padding: 9px;
+}
+}
